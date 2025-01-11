@@ -8,19 +8,19 @@ class F1Cli < Formula
   license "MIT"
 
   depends_on "python@3.11"
-
+  
   resource "click" do
     url "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz"
     sha256 "ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/5b/49/39f10d0f75986c2f465f2f84f32f0a3ef0a5907ea1ebe149a567c8fb35c/typer-0.9.0.tar.gz"
+    url "https://files.pythonhosted.org/packages/5b/49/39f10d0f75986c2f465f2f84f32f0a3ef0a5907ea1ebe149a567c8fb35cc/typer-0.9.0.tar.gz"
     sha256 "50922fd79aea2f4751a8e0408ff10d2662bd0c8bbfa84755a699f3bada2978b2"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c/requests-2.31.0.tar.gz"
+    url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065cd/requests-2.31.0.tar.gz"
     sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
   end
 
