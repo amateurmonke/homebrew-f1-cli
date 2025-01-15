@@ -4,7 +4,7 @@ class F1Cli < Formula
   desc "CLI tool for fetching Formula 1 data"
   homepage "https://github.com/amateurmonke/f1-cli"
   url "https://github.com/amateurmonke/f1-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0c157f243de2f295710578f1168cb4e6cd1c6332ae18f2da96c95d124a09ddbd"
+  sha256 "0266ccf747d56d49a9dddf816960554ffdd44dc7d8cb53a4ac91df7fc6273815"
   license "MIT"
 
   depends_on "python@3.11"
